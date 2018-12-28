@@ -1,0 +1,47 @@
+# See http:client/client/help.github.comclient/ignore-filesclient/ for more about ignoring files.
+
+# compiled output
+client/dist
+client/dist-server
+client/tmp
+client/out-tsc
+
+# dependencies
+client/node_modules
+
+# IDEs and editors
+client/.idea
+.project
+.classpath
+.c9client/
+*.launch
+.settingsclient/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscodeclient/*
+!.vscodeclient/settings.json
+!.vscodeclient/tasks.json
+!.vscodeclient/launch.json
+!.vscodeclient/extensions.json
+
+# misc
+client/.sass-cache
+client/connect.lock
+client/coverage
+client/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+client/typings
+
+# e2e
+client/e2eclient/*.js
+client/e2eclient/*.map
+
+# server
+server/.metadataclient/
+
+# System Files
+.DS_Store
+Thumbs.db
